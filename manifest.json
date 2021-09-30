@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "test_extension-ram",
+    "description": "this is a text extension",
+    "version": "1",
+    "author": "Ramasubramanian D",
+    "browser_action": {
+        "default_icon": "test.jpg",
+        "default_title": "Micheal's many moods"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
